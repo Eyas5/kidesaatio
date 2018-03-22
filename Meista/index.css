@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+    font-family: Raleway;
+    height: 100vh;
+    min-height: 100vh
+}
+*{
+    margin: 0px;
+    padding:0px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.meistaHeading{
+    color: #201813;
+    font-size: 84px;
+    margin-bottom: 30px;
+}
+
+.contentContainer{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.sectionOne{
+    width: 50%;
+    height: 25vh;
+    border-left: 20px solid #F7931E;
+    float: right;
+}
+
+.sectionTwo{
+    width: 50%;
+    height: 25vh;
+    border-left: 20px solid #9F74B8;
+    float: left;
+}
+
+.sectionThree{
+    width: 50%;
+    height: 25vh;
+    border-left: 20px solid #9E8162;
+    float: right;
+}
+
+.textDivs{
+    font-size:25px;
+    line-height: 48px;
+    color: #201813;
+    margin: 20px 0px 0px 30px;
+}
+
+.textDivsTwo{
+    font-size:25px;
+    line-height: 48px;
+    color: #201813;
+    margin: 60px 0px 0px 30px;
+}
+
+.textDivsThree{
+    font-size:25px;
+    line-height: 48px;
+    color: #201813;
+    margin: 40px 0px 0px 30px;
+}
+
+.arrowDiv{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.arrowImg{
+    width:50px;
+    height: 50px;
+}
+
+
+/*Responsive design starts here with 5 breakpoints*/
+@media screen and (max-width:768px) {
+    
+}
+@media screen and (max-width:414px) {
+ 
+}
+

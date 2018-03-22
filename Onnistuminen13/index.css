@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+    font-size: small;
+    font-family: Raleway;
+    height: 100vh;
+    min-height: 100vh
+}
+*{
+    margin: 0px;
+    padding:0px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.yhteTopright{
+    color: #201813;
+    font-size: 40px;
+    font-weight: 900;
+    align-self: flex-end
+}
+
+.yhteHeading{
+    color: #201813;
+    font-size: 84px;
+    margin-bottom: 50px;
+}
+
+.arrowImg{
+    width:50px;
+    height: 50px;
+}
+
+.arrowDiv{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.contentContainer{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.yhteDiv{
+    max-width: 60%;
+    min-height: 50vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.yhteNums{
+    font-size: 84px;
+    color: #9F74B8;
+    margin-right: 10px;
+}
+
+.yhteText{
+    font-size: 30px;
+    color: #201813;
+    align-self: center;
+}
+
+.yhteContentDiv{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    max-width: 50%;
+}
+
+/*Responsive design starts here with 5 breakpoints*/
+@media screen and (max-width:768px) {
+    .osaParagraphOne{
+        font-size: 25px;
+    }
+    .osaParagraphTwo{
+        font-size: 25px;
+    }
+    .osaButton{
+        width: 30%;
+    }
+}
+@media screen and (max-width:414px) {
+    .contentContainer{
+        width: 100%;
+        margin: auto;
+    }
+    .container{
+        margin: auto;
+    }
+    .osaButton{
+        width: 50%;
+    }
+    .osaParagraphOne{
+        font-size: 20px;
+    }
+    .osaParagraphTwo{
+        font-size: 20px;
+    }
+    .osaHeading{
+        font-size: 54px;
+    }
+    .osaTopright{
+        font-size: 20px;
+    }
+}
+

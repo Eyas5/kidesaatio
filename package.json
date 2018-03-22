@@ -1,0 +1,19 @@
+{
+  "name": "kidesaatio",
+  "version": "1.0.0",
+  "description": "Kidesaatio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Integrify-Finland/kidesaatio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Integrify-Finland/kidesaatio/issues"
+  },
+  "homepage": "https://github.com/Integrify-Finland/kidesaatio#readme"
+}

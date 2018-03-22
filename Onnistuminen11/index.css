@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+    font-size: small;
+    font-family: Raleway;
+    height: 100vh;
+    min-height: 100vh
+}
+*{
+    margin: 0px;
+    padding:0px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.onniTopright{
+    color: #201813;
+    font-size: 40px;
+    font-weight: 900;
+    align-self: flex-end
+}
+
+.onniHeading{
+    color: #201813;
+    font-size: 84px;
+    margin-bottom: 50px;
+}
+
+.onniSectionOne{
+    font-size: 30px;
+    color: #fff;
+    line-height: 48px;
+    margin-bottom: 35px;
+    margin-right: 30px;
+    background-color:#9F74B8;
+    text-align: center;
+    height: 45vh;
+    width: 70%;
+}
+
+.sectionDiv{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start
+}
+
+.onniSectionTwo{
+    height: 45vh;
+    width: 18%;
+    margin-bottom: 35px;
+}
+
+.onniButton{
+    width: 25%;
+    line-height: 48px;
+    background-color: #7AC943;
+    outline: none;
+    color: #FFFFFF;
+    font-size: 28px;
+    border-style: solid;
+}
+
+.arrowImg{
+    width:50px;
+    height: 50px;
+}
+
+.karateImg{
+    height: 45vh;
+    width: 100%;
+}
+
+.arrowDiv{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.contentContainer{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.onniText{
+    padding: 150px 40px 0 40px;
+}
+
+/*Responsive design starts here with 5 breakpoints*/
+@media screen and (max-width:1212px) {
+    .onniText{
+        padding: 70px 40px 0 40px;
+    }
+}
+@media screen and (max-width:414px) {
+   
+}
